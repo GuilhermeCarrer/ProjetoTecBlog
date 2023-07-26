@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+/*
+**************LayOut***************
+*/
+
+header{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+/*
+**************Formatação Geral***************
+*/
+
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+.cor-branca{
+    color: white;
+}
+
+/*
+**************Formatação do Menu***************
+*/
+
+a:link, a:visited, a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius:2px;
+}
+
+ a:hover{
+    color: #f7b600;
+    background: #FFF;
+}
+
