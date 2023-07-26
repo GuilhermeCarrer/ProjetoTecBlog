@@ -19,9 +19,53 @@ header{
     text-align: center;
 }
 
+main{
+    
+    width: 960px;
+    margin: 0 auto;
+    padding: 15px;
+}
+aside, #area-conteudo{
+    background-color: #fff;
+    
+}
+
+aside{
+    width: 240px;
+    float: right;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #ccc;
+}
+
+#area-conteudo{
+    width: 660px;
+    float: left;
+    padding: 15px;
+
+}
+
 #area-logo, #area-menu{
     padding: 10px;
 }
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+
 
 /*
 **************Formatação Geral***************
@@ -32,23 +76,63 @@ h1{
     font-size: 2.5em;
 }
 
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
 .cor-branca{
     color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem-baixo{
+    margin-top: 10px;
+}
+
+.conteudo-lateral{
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 /*
 **************Formatação do Menu***************
 */
-
-a:link, a:visited, a{
-    color: #FFF;
+a{
     text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #f7b600;
+    border-radius:2px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color: #FFF;
     padding: 8px 12px;
     border-radius:2px;
 }
 
- a:hover{
+ #area-cabecalho   a:hover{
     color: #f7b600;
     background: #FFF;
+    text-decoration: none;
 }
 
